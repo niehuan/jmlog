@@ -1,0 +1,11 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:8000            0.0.0.0:*               LISTEN      2814/python         
+tcp        0      0 127.0.0.1:8100          0.0.0.0:*               LISTEN      1330/uwsgi          
+tcp        0      0 0.0.0.0:6379            0.0.0.0:*               LISTEN      1324/redis-server 0 
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      1271/nginx: master  
+tcp        0      0 0.0.0.0:82              0.0.0.0:*               LISTEN      22981/httpd         
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      25974/sshd          
+tcp        0      0 0.0.0.0:8088            0.0.0.0:*               LISTEN      4191/python         
+tcp6       0      0 :::3306                 :::*                    LISTEN      1116/mysqld         
+tcp6       0      0 :::22                   :::*                    LISTEN      25974/sshd          
